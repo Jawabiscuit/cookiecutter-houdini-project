@@ -1,10 +1,14 @@
 Cookiecutter Houdini Project
 ****************************
 
+.. image:: https://readthedocs.org/projects/cookiecutter-houdini-project/badge/?version=latest
+    :target: https://cookiecutter-houdini-project.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 Cookiecutter_ template for a Houdini Python project.
 
 * GitHub repo: https://github.com/Jawabiscuit/cookiecutter-houdini-project.git
-* Documentation: (TODO: readthedocs url)
+* Documentation: https://cookiecutter-houdini-project.readthedocs.io/en/latest/
 * Free software: BSD license
 
 Features
