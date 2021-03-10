@@ -1,0 +1,13 @@
+{
+    "full_name": "Type your full name",
+    "email": "Type your email",
+    "github_username": "Type your username",
+    "project_name": "Type your project name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Type short description here.",
+    "version": "0.1.0",
+    "use_pytest": "n",
+    "create_author_file": "y",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "houdini_install_path": "C:\\Program Files\\Side Effects Software\\Houdini 18.5.499\\bin"
+  }

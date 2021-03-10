@@ -1,0 +1,7 @@
+pip==19.2.3
+wheel==0.33.6
+flake8==3.7.8
+Sphinx==1.8.5
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest==4.6.5
+pytest-runner==5.1{% endif %}
