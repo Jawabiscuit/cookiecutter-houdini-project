@@ -6,17 +6,19 @@ Tutorial
 
 .. _`Edit this file`: https://github.com/Jawabiscuit/cookiecutter-houdini-project/blob/master/docs/tutorial.rst
 
-To start with, you will need a `GitHub account`_ and an account on `PyPI`_. Create these before you get started on this tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the tutorials at the top of the page at `GitHub Help`_.
+To start with, you will need a `GitHub account`_. Create these before you get started on this
+tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the
+tutorials at the top of the page at `GitHub Help`_.
 
 .. _`GitHub account`: https://github.com/
-.. _`PyPI`: https://pypi.python.org/pypi
 .. _`GitHub Help`: https://help.github.com/
 
 
 Step 1: Install Cookiecutter
 ----------------------------
 
-First, you need to create and activate a virtualenv for the package project. Use your favorite method, or create a virtualenv for your new package like this:
+First, you need to create and activate a virtualenv for the package project. Use your favorite
+method, or create a virtualenv for your new package like this:
 
 .. code-block:: bash
 
@@ -62,19 +64,13 @@ For conda to work in powershell (tested on v6) an initial script needs to be run
 
     conda init powershell
 
-Powershell also seems to work better prefixing each activate/deactivate command with ``conda``. Also
-conda will load the base environment automatically every new powershell. It might be necessary to
+``conda`` will load the base environment automatically every new powershell. It might be necessary to
 deactivate it if you want to run a different, non-conda python exe.
 
 .. code-block:: powershell
 
     conda activate cookiecutter
     conda deactivate
-
-Of course, you could run ``venv`` (interchangeable with virtualenv) inside a conda env if desired.
-There have been `some known issues`_, but it seems viable.
-
-.. _`some known issues`: https://github.com/ContinuumIO/anaconda-issues/issues/10822
 
 Step 2: Generate Your Package
 -----------------------------
@@ -99,7 +95,8 @@ Go to your GitHub account and create a new repo named ``mypackage``, where ``myp
 
 ``If your virtualenv folder is within your project folder, be sure to add the virtualenv folder name to your .gitignore file.``
 
-You will find one folder named after the ``[project_slug]``. Move into this folder, and then setup git to use your GitHub repo and upload the code:
+You will find one folder named after the ``[project_slug]``. Move into this folder, and then setup
+git to use your GitHub repo and upload the code:
 
 .. code-block:: bash
 
@@ -123,7 +120,8 @@ Step 4: Install Dev Requirements
 
 You should still be in the folder containing the ``requirements_dev.txt`` file.
 
-Your virtualenv should still be activated. If it isn't, activate it now. Install the new project's local development requirements:
+Your virtualenv should still be activated. If it isn't, activate it now. Install the new project's
+local development requirements:
 
 .. code-block:: bash
 
@@ -137,7 +135,8 @@ Step 5: Set Up Read the Docs
 
 Log into your account at `Read the Docs`_ . If you don't have one, create one and log into it.
 
-If you are not at your dashboard, choose the pull-down next to your username in the upper right, and select "My Projects". Choose the button to Import the repository and follow the directions.
+If you are not at your dashboard, choose the pull-down next to your username in the upper right, and
+select "My Projects". Choose the button to Import the repository and follow the directions.
 
 Now your documentation will get rebuilt when you make documentation changes to your package.
 
@@ -146,6 +145,7 @@ Now your documentation will get rebuilt when you make documentation changes to y
 Having problems?
 ----------------
 
-Visit our :ref:`troubleshooting` page for help. If that doesn't help, go to our `Issues`_ page and create a new Issue. Be sure to give as much information as possible.
+Visit the :ref:`troubleshooting` page for help. If that doesn't help, go to our `Issues`_ page and
+create a new Issue. Be sure to give as much information as possible.
 
 .. _`Issues`: https://github.com/Jawabiscuit/cookiecutter-houdini-project/issues

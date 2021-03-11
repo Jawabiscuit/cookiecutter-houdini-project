@@ -19,12 +19,11 @@ Function Invoke-Houdini {
 
     If ($MyInvocation.InvocationName -eq 'hou') {
         Write-Host "Launching houdini!" -ForegroundColor Yellow
-        # cmd /c "$houdiniCmd"
-        Start-Process -NoNewWindow "$houdiniCmd"
+        cmd /c "$houdiniCmd"
     }
     Else {
         Write-Host "Launching houdini..." -ForegroundColor Green
-        Start-Process -NoNewWindow "$houdiniCmd"
+        cmd /c "$houdiniCmd"
     }
 }
 
